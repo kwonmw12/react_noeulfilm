@@ -1,0 +1,88 @@
+{
+  "mainsection": [
+    {
+      "worktitle": "Wedding",
+      "cls": "mainswiper_pt",
+      "bg": "url(/img/mainswiper/wedding.jpg)"
+    },
+    {
+      "worktitle": "Portrait",
+      "cls": "mainswiper_pt",
+      "bg": "url(/img/mainswiper/portrait.jpg)"
+    },
+    {
+      "worktitle": "Friend",
+      "cls": "mainswiper_pt",
+      "bg": "url(/img/mainswiper/friend.jpg)"
+    },
+    {
+      "worktitle": "Workshop",
+      "cls": "mainswiper_pt",
+      "bg": "url(/img/mainswiper/workshop.jpg)"
+    }
+  ],
+  "bestphoto": [
+    {
+      "worktitle": "",
+      "cls": "bestphoto_pt",
+      "bg": "url(/myimg/solo/solo_13.jpg)"
+    },
+    {
+      "worktitle": "",
+      "cls": "bestphoto_pt",
+      "bg": "url(/myimg/solo/solo_23.jpg)"
+    },
+    {
+      "worktitle": "",
+      "cls": "bestphoto_pt",
+      "bg": "url(/myimg/solo/solo_43.jpg)"
+    },
+    {
+      "worktitle": "",
+      "cls": "bestphoto_pt",
+      "bg": "url(/myimg/solo/solo_68.jpg)"
+    },
+    {
+      "worktitle": "",
+      "cls": "bestphoto_pt",
+      "bg": "url(/myimg/solo/solo_75.jpg)"
+    },
+    {
+      "worktitle": "",
+      "cls": "bestphoto_pt",
+      "bg": "url(/myimg/solo/solo_96.jpg)"
+    }
+  ],
+  "gallery": [
+    {
+      "worktitle": "",
+      "cls": "gallery_pt",
+      "bg": "url(/myimg/snap/snap_06.jpg)"
+    },
+    {
+      "worktitle": "",
+      "cls": "gallery_pt",
+      "bg": "url(/myimg/snap/snap_07.jpg)"
+    },
+    {
+      "worktitle": "",
+      "cls": "gallery_pt",
+      "bg": "url(/myimg/snap/snap_11.jpg)"
+    },
+    {
+      "worktitle": "",
+      "cls": "gallery_pt",
+      "bg": "url(/myimg/snap/snap_13.jpg)"
+    },
+    {
+      "worktitle": "",
+      "cls": "gallery_pt",
+      "bg": "url(/myimg/snap/snap_15.jpg)"
+    },
+    {
+      "worktitle": "",
+      "cls": "gallery_pt",
+      "bg": "url(/myimg/snap/snap_19.jpg)"
+    }
+  ]
+}
