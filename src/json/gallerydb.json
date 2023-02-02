@@ -1,0 +1,54 @@
+{
+  "gallery_w": {
+    "title": "",
+    "cls": ["gallery_wed"," col-9", "row"],
+    "bg": [
+      "../../img/gallery/wedding01.jpg",
+      "../../img/gallery/wedding02.jpg",
+      "../../img/gallery/wedding03.jpg",
+      "../../img/gallery/wedding04.jpg",
+      "../../img/gallery/wedding05.jpg",
+      "../../img/gallery/wedding06.jpg"
+    ]
+  },
+  "gallery_c": {
+    "title": "",
+    "cls": ["gallery_cou","col-9", "row"],
+    "bg": [
+      "../../img/gallery/couple1.jpg",
+      "../../img/gallery/couple2.jpg",
+      "../../img/gallery/couple3.jpg",
+      "../../img/gallery/couple4.jpg",
+      "../../img/gallery/couple5.jpg"
+      
+    ]
+  },
+  "gallery_f": {
+    "title": "",
+    "cls": ["gallery_fri","col-9", "row"],
+    "bg": [
+      "../../img/gallery/port1.jpg",
+      "../../img/gallery/port2.jpg",
+      "../../img/gallery/port3.jpg",
+      "../../img/gallery/port4.jpg",
+      "../../img/gallery/port5.jpg",
+      "../../img/gallery/port6.jpg",
+      "../../img/gallery/port7.jpg",
+      "../../img/gallery/port8.jpg"
+    ]
+  },
+  "gallery_p": {
+    "title": "",
+    "cls": ["gallery_per","col-9", "row"],
+    "bg": [
+      "../../img/gallery/port1.jpg",
+      "../../img/gallery/port2.jpg",
+      "../../img/gallery/port3.jpg",
+      "../../img/gallery/port4.jpg",
+      "../../img/gallery/port5.jpg",
+      "../../img/gallery/port6.jpg",
+      "../../img/gallery/port7.jpg",
+      "../../img/gallery/port8.jpg"
+    ]
+  }
+}
