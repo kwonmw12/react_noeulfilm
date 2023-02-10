@@ -1,12 +1,12 @@
 import interviewDBlink from '../json/review.json';
 
 
-const Review = (props) => {
+const Qna = (props) => {
   const interviewjson = interviewDBlink[props.objnm];
   return (
     <section className="section py-5 text-center" id={props.contentid}>
-      <h3 data-aos="fade-down" data-aos-duration="2000"> {props.title} </h3>
-      <p data-aos="fade-up" data-aos-duration="2000">노을필름을 이용하신 고객님들의 소리</p>
+      <h3 data-aos="fade-down" data-aos-duration="2000">{props.title}</h3>
+      <p data-aos="fade-up" data-aos-duration="2000">{props.subtitle}</p>
       <div className="py-5 container-md text-start">
         <ul>
           {
@@ -15,7 +15,7 @@ const Review = (props) => {
               return (
                 <li key={'interview' + index} data-aos="fade-right">
                   <strong className='d-block border-bottom py-2 ' role="button" onClick={e => { console.log(e.target.nextSibling.classList.toggle('d-none')) }}>{value.subject}</strong>
-                  <p className='py-3 d-none'>{value.content}</p>
+                  <p className='py-3 d-none'>{value.content}<br></br>{value.content1}</p>
                 </li>
               )
             }
@@ -24,7 +24,7 @@ const Review = (props) => {
         </ul>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Review;
+export default Qna;

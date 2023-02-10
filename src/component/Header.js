@@ -21,7 +21,7 @@ function Header(props) {
     if (window.scrollY > 100) {
       targetRef.current.classList.add('scroll');
     } else {
-      targetRef.current.classList.remove('scroll')
+      targetRef.current.classList.remove('scroll');
     }
     setnaviOpen(false);
   };

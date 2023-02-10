@@ -25,64 +25,47 @@
     {
       "worktitle": "",
       "cls": "bestphoto_pt",
-      "bg": "url(/myimg/solo/solo_13.jpg)"
+      "bg": "url(/img/bestphoto/solo_09.jpg)"
     },
     {
       "worktitle": "",
       "cls": "bestphoto_pt",
-      "bg": "url(/myimg/solo/solo_23.jpg)"
+      "bg": "url(/img/bestphoto/solo_13.jpg)"
     },
     {
       "worktitle": "",
       "cls": "bestphoto_pt",
-      "bg": "url(/myimg/solo/solo_43.jpg)"
+      "bg": "url(/img/bestphoto/solo_23.jpg)"
     },
     {
       "worktitle": "",
       "cls": "bestphoto_pt",
-      "bg": "url(/myimg/solo/solo_68.jpg)"
+      "bg": "url(/img/bestphoto/solo_28.jpg)"
     },
     {
       "worktitle": "",
       "cls": "bestphoto_pt",
-      "bg": "url(/myimg/solo/solo_75.jpg)"
+      "bg": "url(/img/bestphoto/solo_43.jpg)"
     },
     {
       "worktitle": "",
       "cls": "bestphoto_pt",
-      "bg": "url(/myimg/solo/solo_96.jpg)"
-    }
-  ],
-  "gallery": [
-    {
-      "worktitle": "",
-      "cls": "gallery_pt",
-      "bg": "url(/myimg/snap/snap_06.jpg)"
+      "bg": "url(/img/bestphoto/solo_66.jpg)"
     },
     {
       "worktitle": "",
-      "cls": "gallery_pt",
-      "bg": "url(/myimg/snap/snap_07.jpg)"
+      "cls": "bestphoto_pt",
+      "bg": "url(/img/bestphoto/solo_69.jpg)"
     },
     {
       "worktitle": "",
-      "cls": "gallery_pt",
-      "bg": "url(/myimg/snap/snap_11.jpg)"
+      "cls": "bestphoto_pt",
+      "bg": "url(/img/bestphoto/solo_87.jpg)"
     },
     {
       "worktitle": "",
-      "cls": "gallery_pt",
-      "bg": "url(/myimg/snap/snap_13.jpg)"
-    },
-    {
-      "worktitle": "",
-      "cls": "gallery_pt",
-      "bg": "url(/myimg/snap/snap_15.jpg)"
-    },
-    {
-      "worktitle": "",
-      "cls": "gallery_pt",
-      "bg": "url(/myimg/snap/snap_19.jpg)"
+      "cls": "bestphoto_pt",
+      "bg": "url(/img/bestphoto/solo_91.jpg)"
     }
   ]
 }

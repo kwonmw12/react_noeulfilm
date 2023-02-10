@@ -13,20 +13,17 @@ function Gallery(props) {
   }
   return (
     <section className="section text-center" id={props.contentid}>
-      <h3 data-aos="fade-right" className={props.title == 'no' ? 'd-none' : 'swiper_h3'}>GALLERY</h3>
-      <p data-aos="fade-left" className={props.title == 'no' ? 'd-none' : 'swiper_p'}>노을필름의 다양한 사진들을 소개합니다.</p>
-      <div className="d-flex justify-content-center">
-        <button onClick={btnupdate} datasrc={['웨딩', 'gallery_w']} className="border-none !important">웨딩스냅</button>
-        <button onClick={btnupdate} datasrc={['커플', 'gallery_c']}>커플스냅</button>
-        <button onClick={btnupdate} datasrc={['우정', 'gallery_f']}>우정스냅</button>
-        <button onClick={btnupdate} datasrc={['개인', 'gallery_p']}>개인 프로필</button>
+      <h3 data-aos="fade-down" data-aos-duration="1500" className={props.title == 'no' ? 'd-none' : 'swiper_h3'}>{props.title}</h3>
+      <p data-aos="fade-up" data-aos-duration="1500" className={props.title == 'no' ? 'd-none' : 'swiper_p'}>{props.subtitle}</p>
+      <div className="d-flex justify-content-center" data-aos="zoom-in" data-aos-duration="2000">
+        <button onClick={btnupdate} datasrc={['웨딩', 'gallery_w']}>웨딩스냅</button>
+        <button onClick={btnupdate} className="btn1" datasrc={['커플', 'gallery_c']}>커플스냅</button>
+        <button onClick={btnupdate} className="btn2" datasrc={['우정', 'gallery_f']}>우정스냅</button>
+        <button onClick={btnupdate} className="btn3" datasrc={['개인', 'gallery_p']}>개인 프로필</button>
       </div>
 
       <Gallerycontent dbobjkey={gallerypt[0]} galleryId={gallerypt[1]}>
       </Gallerycontent>
-
-
-
     </section>
   );
 }

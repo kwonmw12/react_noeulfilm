@@ -5,8 +5,6 @@ import { Navigation, Pagination, A11y, Autoplay } from 'swiper';
 import "swiper/css";
 import "swiper/css/pagination";
 
-import maincss from '../css/main.module.css'
-
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -33,7 +31,7 @@ const Mainswiper = (props) => {
         }}
         centeredSlides={true}
         autoplay={{
-          delay: 300011,
+          delay: 3000,
           disableOnInteraction: false,
         }}
         loop={true}
